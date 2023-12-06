@@ -10,9 +10,8 @@ dataBase = mysql.connector.connect(
 )
 
 
-print("SUCCESS")
 #Preparing a cursor object
-# cursorObject = dataBase.cursor()
+cursorObject = dataBase.cursor()
 
-# #Creating a database.
-# cursorObject.execute("CREATE DATABASE djcrmDB")
+#Creating a database.
+cursorObject.execute("CREATE DATABASE djcrmDB")

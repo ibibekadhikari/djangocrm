@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'djangocrm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'dj-crm',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djcrmDB',
         'USER': 'root',
         'PASSWORD': 'bbk',
         'HOST': 'localhost',
